@@ -4,9 +4,9 @@ A generic Fortran repository that contains various exercises. This repository se
 
 -------------------------------------------------------------
 ##### Programming language
-- C
+- Fortran
 -----------------------------------------------------------------------------
-#### mkdir.f95
+##### mkdir.f95
 
 - This code is written in Fortran and creates a new directory using the system command 'mkdir'. The program starts by reading a character string input from the user and storing it in the variable 'pasta'. The code then sets the 'path' variable to a default value of '/home/estudante/' and the 'folder' variable to the user input. The 'makedirectory' variable is then created by concatenating the 'mkdir' command with the 'path' and 'folder' variables using the '//' operator.
 Finally, the 'makedirectory' string is printed to the console and the 'system' function is called with the 'makedirectory' string as the argument to execute the 'mkdir' command and create the new directory.
